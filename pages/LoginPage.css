@@ -1,0 +1,53 @@
+﻿/* src/pages/LoginPage.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f0f4f8; /* Light background color */
+}
+
+.login-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+    .login-form h1 {
+        margin-bottom: 20px;
+        color: #333; /* Dark text color for better readability */
+    }
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Primary color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .login-button:hover {
+        background-color: #0056b3; /* Darker shade on hover */
+    }
+
+.login-error {
+    color: #e74c3c; /* Red color for errors */
+    margin-top: 10px;
+}

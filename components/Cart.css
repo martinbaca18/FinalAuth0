@@ -1,0 +1,33 @@
+﻿/* src/components/Cart.css */
+.cart-page-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product-list-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.cart-section {
+    flex: 2;
+}
+
+    .cart-section h2 {
+        margin-bottom: 20px;
+    }
+
+.checkout-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .checkout-button:hover {
+        background-color: #0056b3;
+    }

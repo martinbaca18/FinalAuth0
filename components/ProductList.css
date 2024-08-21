@@ -1,0 +1,9 @@
+﻿/* src/components/ProductList.css */
+.product-list-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
